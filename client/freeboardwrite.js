@@ -1,13 +1,13 @@
-Router.route('freeboardwrite', 'freeboardwrite');
+Router.route('/freeboardwrite', 'freeboardwrite');
 
-Template.freebordwrite.events({
+Template.freeboardwrite.events({
   //4
-  'click #cancel': function(e, tmpl) {
+  "click #cancel": function(e, tmpl) {
     $('#작성자').val('');
     $('#제목').val('');
     $('#본문').val('');
   },
-  'click #write': function(e, tmpl) {
+  "click #write": function(e, tmpl) {
     if (!Meteor.user()) {
       return alert('로그인을 해주세요!!!');
     }
