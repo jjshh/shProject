@@ -13,7 +13,7 @@ Meteor.methods({
       _id: obj._id
     });
   },
-  'boardWrite': function(obj) {
+  'freeboardwrite': function(obj) {
     //글번호를 알아냅시다. 글번호 === 전체 글 갯수 + 1
     //글번호 max값 + 1로 수정
     var board = Boards.findOne({}, {sort: {'글번호': -1}});
