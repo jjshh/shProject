@@ -1,3 +1,43 @@
 <template name = "notice">
-    This is notice
+    <body>
+    <div id="page-wrapper">
+        <table id="notice">
+            <thead>
+            <tr>
+                <td>글번호</td>
+                <td>조희수</td>
+                <td>제목</td>
+                <td>작성자</td>
+                <td>좋아요 수</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>3</td>
+                <td>1월 공지사항</td>
+                <td>관리자</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>6</td>
+                <td>12월 공지사항</td>
+                <td>관리자</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>8</td>
+                <td>11월 공지사항</td>
+                <td>관리자</td>
+                <td>10</td>
+            </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <button type="button" id="noticewritebutton" onclick="location.href='noticewrite'">글작성</button>
+    </div>
+    </body>
 </template>
