@@ -1,0 +1,11 @@
+#eventwrite {
+    width: 90%;
+    border-color: #c8e2e5;
+    text-align: center;
+    border-top: 2px solid #c8e2e5;
+    border-bottom: 1px solid #c8e2e5;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 15px;}
+thead {color: #61898b}
