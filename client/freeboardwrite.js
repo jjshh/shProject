@@ -20,7 +20,7 @@ Template.freeboardwrite.events({
     }
     obj.본문 = $('#본문').val();
 
-    Meteor.call('Boards', obj, function(err, rslt) {
+    Meteor.call('freeboardwrite', obj, function(err, rslt) {
       if(err) {
         //실패시 화면에서 해야 할 액션
         alert(err);
